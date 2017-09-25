@@ -1,0 +1,22 @@
+{
+    "server":{
+        "logfilename" : "server_system.log",
+        "serverPort" : "3100"
+    },
+    "database":{
+        "mlab":true,
+        "dbType" : "mongodb",
+        "dbHost" : "localhost",
+        "dbPort" : "27017",
+        "dbUserName":"ankush",
+        "dbPassword":"ankush",
+        "dbName":"employeedb",
+        "testdbname":"employeedb",
+        "tableName":"Employee",
+        "bulktableName":"BulkFileDetail",
+        "mlabhost":"ds147034.mlab.com",
+        "mlabpost":"47034"
+
+        
+    }
+}
